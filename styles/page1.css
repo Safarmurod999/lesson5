@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  text-align: center;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+.top{
+  width: 100vw;
+  height: 120vh;
+  
+}
+.top .heading  p {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 0;
+}
+.top #container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.top .card {
+  display: inline-block;
+  width: 276px;
+  margin: 40px 60px;
+}
+.top .card .text-box .nth1 {
+  font-size: 19px;
+  margin: 0;
+  font-weight: 700;
+  line-height: 35px;
+}
+.top .card p {
+  line-height: 22px;
+  font-size: 15px;
+  color: #1c1c1c;
+}
+.top  .container .card img {
+  width: 50px;
+}

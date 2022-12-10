@@ -1,0 +1,62 @@
+.bottom {
+  padding: 100px 200px;
+}
+.bottom .heading {
+  padding-bottom: 60px;
+}
+.bottom .heading h2 {
+  font-size: 40px;
+  line-height: 45px;
+  margin: 0;
+}
+.bottom .heading p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.bottom .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bottom .card {
+  width: 420px;
+  background: #17002e;
+  color: white;
+  margin: 13px;
+  padding: 22px 50px 22px 30px;
+  text-align: left;
+  border-radius: 8px 10px 10px 8px;
+}
+.bottom .text-box2 p {
+  font-size: 9px;
+  margin: 0;
+  text-align: left;
+}
+.bottom .img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bottom .img-box img {
+  margin-right: 20px;
+  width: 45px;
+}
+.bottom .img-box span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.bottom .text-box2 p {
+  width: 330px;
+  font-size: 15px;
+  line-height: 22px;
+}
+.bottom .text-box2:nth-child(2) {
+  width: 270px;
+  border-bottom: 1px solid #fff;
+}
